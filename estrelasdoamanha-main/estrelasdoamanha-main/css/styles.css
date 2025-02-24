@@ -1,0 +1,830 @@
+/* Estilos Globais */
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F4F4F9;
+    color: #355070;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5286a8;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #2f5168; 
+    border-top: 2px solid #2f5168; 
+    padding: 10px;           
+}
+
+.logoheader, .logo {
+    width: 10%;
+}
+
+
+
+header h1 {
+    color: #24044d;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 20px;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 400px;
+    background-color: #fff9f9;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/* Exibe o menu quando ativo */
+nav ul.active {
+    display: flex; /* Mostra o menu quando clicado */
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+
+nav ul li a:hover {
+    color: #5e2c8d;
+}
+
+
+
+/*banner*/
+.banner {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Seção de Introdução */
+.intro {
+    background-color: #9a7bb6;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; 
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px 0;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+}
+
+.btn-saiba-mais {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.cta {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro .cta:hover {
+    background-color: #ad6e4e;
+}
+
+/*intro 2*/
+
+.intro2 {
+    background-color: #4b688b;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.intro2 h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; 
+}
+
+.intro2 p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px 0;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+}
+
+.intro2 .btn-saiba-mais {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.intro2 .cta {
+    background-color: #35a186;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro2 .cta:hover {
+    background-color: #286858;
+}
+
+
+/*intro 3*/
+
+.intro3 {
+    background-color: #e66666;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.intro3 h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; 
+}
+
+.intro3 p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px 0;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+}
+
+.intro3 .btn-saiba-mais {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.intro3 .cta {
+    background-color: #9a7bb6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro3 .cta:hover {
+    background-color: #6d5581;
+}
+
+/*imagem meio*/
+.imagemmeio {
+    width: 95%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+/*citacao*/
+.citacao {
+    background-color: #cc79ac;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    border-radius: 60px; 
+}
+
+.citacao .p1 {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #000000;
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: "Merriweather", serif;
+}
+.citacao .p2 {
+    font-size: 1.1rem;
+    color: #572543;
+    padding-left: 20px;
+    font-family: "Merriweather", serif;
+}
+
+/* Conteúdo */
+.contentgeral {
+    background-color: #b4bdca;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.content1 h2{
+    font-size: 2rem;
+    color: #0f1233;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; 
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #5D9B8E;
+    padding-top: 0%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    color: #FFFFFF;
+    font-size: 1.27rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #F4F4F9;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #355070;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a página sobre */
+.sobre-projeto {
+    background-color: #B18FCF;
+    padding: 50px 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sobre-projeto h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sobre-projeto p {
+    font-size: 1.2rem;
+}
+
+.equipe {
+    padding: 50px 20px;
+    background-color: #F4F4F9;
+    text-align: center;
+}
+
+.equipe h2 {
+    color: #355070;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cards-equipe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #5D9B8E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #F4F4F9;
+}
+
+/* Seção de contato */
+.contato {
+    background-color: #5286a8;
+    padding: 40px 20px;
+    text-align: center;
+    color: #141a20;
+}
+
+.contato a {
+    color: #6a2d8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    color: #FFA77B;
+}
+
+/* Outros estilos reutilizáveis */
+header, footer {
+    background-color: #5286a8;
+    color: #1e3755;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+}
+/* Seção da equipe - ajustada para cinco membros */
+.equipe {
+    padding: 50px 20px;
+    background-color: #F4F4F9;
+    text-align: center;
+}
+
+.equipe h2 {
+    color: #355070;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cards-equipe {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos para os cards */
+.card {
+    background-color: #5D9B8E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18%; /* Ajuste para permitir 5 cards em uma linha */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #F4F4F9;
+}
+
+
+/* Estilos para a seção de vídeos */
+.video-list {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #F4F4F9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-list h2 {
+    font-size: 2rem;
+    color: #355070;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.video-list p {
+    font-size: 1rem;
+    color: #6F6F6F;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 505px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F9;
+    color: #1b133b;
+}
+
+/* Estilos principais da seção de vídeos */
+.videos-main {
+    padding: 40px;
+}
+
+.videos-section {
+    text-align: center;
+}
+
+.videos-section h2 {
+    font-size: 2rem;
+    color: #355070;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.videos-section p {
+    font-size: 1rem;
+    color: #6F6F6F;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.video-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+.video-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-card h3 {
+    padding: 0 15px 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.video-card p {
+    padding: 0 15px 15px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #ab90c2;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .videos-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .videos-section p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/*pagina de mulheres importantes para a ciencias*/
+
+.mulheres body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.mulheres main {
+    padding: 20px;
+}
+
+.card-containermulheres {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+.cardmulheres {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-img {
+    width: 25%;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1; /* Permite que o conteúdo do card ocupe o espaço restante */
+}
+
+h1, h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; 
+}
+
+
+/* Para telas menores que 1200px */
+@media (max-width: 1200px) {
+    .intro, .intro2, .intro3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .citacao {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .card {
+        width: 48%;
+    }
+}
+
+/* Para tablets (menos de 768px) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logoheader {
+        width: 25%;
+    }
+    .intro, .intro2, .intro3 {
+        margin: 10px;
+        padding: 15px;
+    }
+    .citacao {
+        padding: 20px;
+        margin: 10px;
+    }
+    .content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .cards-equipe {
+        flex-direction: column;
+    }
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+    .video-card {
+        margin: 0 auto;
+    }
+}
+
+/* Para telas muito pequenas (menos de 480px) */
+@media (max-width: 480px) {
+    header {
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    .logoheader {
+        width: 15%; 
+        max-width: 50px;
+    }
+    .menu-icon {
+        font-size: 24px;
+        margin-left: auto;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        background-color: #fff9f9;
+        border: 1px solid #000000;
+        border-radius: 0px;
+        list-style: none;
+        padding: 10px;
+        text-align: left;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #000000;
+        font-weight: bold;
+        font-family: "Merriweather", serif;
+    }
+    nav ul li a:hover {
+        color: #5e2c8d;
+    }
+    header h1 {
+        font-size: 1rem;
+    }
+    .intro, .intro2, .intro3, .citacao {
+        margin: 5px;
+        padding: 10px;
+    }
+    .intro p, .intro2 p, .intro3 p, .citacao .p1, .citacao .p2 {
+        font-size: 0.8rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .content1 {
+        margin-top: 40px;
+    }
+    .card-containermulheres {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+    .cardmulheres {
+        flex-direction: column;
+    }
+    .card-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .video-card h3 {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .video-list {
+        padding: 20px;
+    }
+    .intro2 h2, .intro h2, .intro3 h2, .content1 h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Para telas grandes */
+.imagemmeio {
+    width: 95%; /* Ajuste inicial para telas grandes */
+    max-width: 600px; /* Largura máxima */
+    height: auto; /* Para manter a proporção da imagem */
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+/* Para tablets (menos de 768px) */
+@media (max-width: 768px) {
+    .imagemmeio {
+        width: 85%; /* Largura um pouco menor para tablets */
+    }
+}
+
+/* Para telas muito pequenas (menos de 480px) */
+@media (max-width: 480px) {
+    .imagemmeio {
+        width: 95%; /* Largura ainda menor para smartphones */
+    }
+}
+
+
+/*Página sobre o projeto*/
+
+.sobre-projeto h2{
+    font-size: 2rem;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.sobre-projeto p{
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px 0;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+}
+
+
