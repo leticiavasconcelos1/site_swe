@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estrelas do Amanhã</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../cssboot/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -13,7 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace+SC&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nabla&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/falling-star.png">
+    
     <script src="executa.js"></script>
+    
 </head>
 <body>
     <header>
@@ -40,7 +43,7 @@
            <img class="banner" src="img/banner.png" alt="banner">
         </figure>
      </div>
-
+     
     <main>
         <section id="Meninasexatas" class="intro">
             <h2>Meninas nas exatas!</h2>
@@ -55,27 +58,31 @@
             <a href="sobre.html" target="_blank" class="btn-saiba-mais cta">Saiba Mais</a>
         </section>
 
-
-        <section>
-            <div class="imagemmeio">
-                <img class="imagemmeio" src="img/mulheres.jpg" alt="mulher">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <section>
+                    <div class="imagemmeio">
+                        <img class="imagemmeio" src="img/mulheres.jpg" alt="mulher">
+                    </div>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                    <div class="imagemmeio">
+                        <img class="imagemmeio" src="img/grafico_index.png" alt="mulher">
+                    </div>
+                </section>
+              </div>
             </div>
-        </section>
 
 
         
 
-    
 
 
-        <section id="video" class="video-list">
-            <h2>“MULHERES DE EXATAS”</h2>
-            <p>Rompendo com estigmas sociais de gênero, as meninas do Society of Women Engineers vêm contar como é ser mulher na engenharia!</p>
-            <!-- Exemplo de vídeos do YouTube -->
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CRkWu5PjOnE?si=H8zW41cf1cGOa0zT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-        </section>
+        <!-- nessa parte vai ser um grafico sobre a afirmação a cima -->
+
 
 
         <section class="intro3">
@@ -91,25 +98,17 @@
             </section>
 
 
-        <section class="intro2">
-            <h2>Robótica e Interdisciplinaridade: Aprendizagem Criativa Atraindo Meninas para a Tecnologia</h2>
-            <p>O projeto de ensino de robótica e aprendizagem criativa em uma metodologia interdisciplinar. As 
-                estudantes aplicam o conhecimento adquirido nas aulas do ensino médio no laboratório de robótica 
-                utilizando a metodologia STEAM (Science, Technology, Engineering, the Arts and Mathematics), como 
-                pontos de acesso para orientar a investigação, o diálogo e o pensamento crítico. O principal objetivo 
-                do projeto é mostrar que as meninas podem atuar em diferentes áreas do conhecimento, incluindo as 
-                áreas STEM (Science, Technology, Engineering and Mathematics).</p>
-                <p>O projeto está em fase de andamento, mas já pode ser percebida uma maior motivação e interesse dos 
-                    alunos em seguir áreas de exatas, tecnologia e engenharia. As alunas estão obtendo desempenho
-                     satisfatório, algumas vezes melhor do que o dos alunos.</p>
-            <a href="https://sol.sbc.org.br/index.php/wit/article/view/11282" target="_blank" class="btn-saiba-mais cta">Artigo Completo</a>
-        </section>
+        
 
 
     
 
-    <footer>
-        <p>&copy; 2024 Estrelas do Amanhã - Todos os direitos reservados.</p>
-    </footer>
+            <footer>
+                <p>&copy; 2024 Estrelas do Amanhã - Todos os direitos reservados.</p>
+            </footer>
+
+    </main>
 </body>
 </html>
+
+<script src="../jsboot/bootstrap.bundle.js" ></script>
